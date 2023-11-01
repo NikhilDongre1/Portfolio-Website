@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@1,700&family=Ubuntu:wght@400;500&display=swap');
+
+
+body{
+    color: white;
+    background-color:rgb(17,17,17);
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#logo{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif ;
+    background: linear-gradient(to right, #ea00ff, #742fff, #0004ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+    
+}
+#logo:hover{
+    cursor: default; 
+    
+    background: linear-gradient(to right, #0004ff, #742fff,#ea00ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;         
+    
+}
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+#mainNavbar .nav-link{
+    color:rgb(187,134,252);
+}
+#mainNavbar .nav-link:hover{
+    color:rgb(217, 186, 255);
+}
+#about,#intro{
+    margin-top: 150px;
+}
+#profile{
+    
+    max-width: 400px;
+    height: auto;
+    
+}
+#mainNavbar{
+    background-color:rgb(18,18,18) ;
+}
+#progressbar{
+    min-width: 30px;
+    max-width: 500px;
+}
+/* #intro,#about,#project{
+    height: 100vh;
+
+} */
+#dev,#footer{
+    
+    background-color: black;
+}
+
+.thumbnail{
+ max-width: 400px;
+}
+a{
+    color: #742fff ;
+}
+button{
+    background-color: #742fff;
+}
+.modal-content{
+    background-color: rgb(17,17,17);
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.auto-type{
+    color: #742fff;
+}
